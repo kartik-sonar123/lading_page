@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+ 
+}
+.nav
+{
+    height: 100px;
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    padding:0px 30px;
+}
+#nav-part1
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2px;
+
+
+}
+#nav-part1 h3{
+    border:1.5px solid black;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius:50px;
+    padding:5px 10px;
+
+}
+#nav-part1 i{
+    border:1.5px solid black;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius:50px;
+    padding:5px 10px;
+
+}
+#nav-part2 h1
+{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight:500;
+
+}
+#nav-part3 button
+{   
+    padding: 7px 12px;
+    border-radius:50px;
+    border:1.5 solid #000;
+    font-size:16px;
+    font-weight: 600;
+    border-bottom-color: white;
+}
+#nav-part3 #bt2
+{
+    background-color: orangered;
+    color: #fff;
+    border:none;
+}
+#main >h1
+{
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-size:125px;
+    font-weight: 100;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    /* background-color: red; */
+    text-align: center;
+}
+
+/* img tag object-fit:cover and for background-image-bacground-fit:cover */
+#main img{
+    height:300px;
+    width:250px;
+    object-fit: cover;  
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius:20px;
+}
+#main #img1
+{
+    transform: translate(-50%,-50%) rotate(-30deg);
+  
+}
+#main #img2
+{
+    transform: translate(-50%,-50%) rotate(-20deg);
+  
+}
+#main #img3
+{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#main #btm-left
+{
+    position: absolute;
+    bottom:5%;
+    left:3%;
+    font-size:16px;
+}
+#main #btm-right
+{
+    position: absolute;
+    bottom:5%;
+    right:3%;
+    font-size:16px;
+}
+#btm-right-up1
+{
+    position: absolute;
+    bottom:9%;
+    right:3%;
+    font-size:18px;
+}
+#btm-right-up2
+{
+    position: absolute;
+    bottom:9%;
+    right:9%;
+    font-size:18px;
+  
+}
+#btm-right-up3
+{
+  
+    position: absolute;
+    bottom:9%;
+    right:14%;
+    font-size:18px;
+}
+
+#main #btm-mid
+{
+    position:absolute;
+    top:92%;
+    font-weight:10;
+    right:47%;
+    font-size:35px;
+    border:1.5px solid black;
+    padding:5px 15px 15px 15px;
+    border-radius:50%;
+}
+
